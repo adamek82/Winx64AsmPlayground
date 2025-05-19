@@ -7,6 +7,7 @@ project(Winx64AsmPlayground
 set(SRC
     src/main.c
     src/hello.asm
+    src/dynamic.asm
 )
 
 add_executable(${PROJECT_NAME} ${SRC})

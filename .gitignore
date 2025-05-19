@@ -1,0 +1,34 @@
+# ==== CMake & MSVC build output ====
+/build/                      # your out-of-source build dir
+CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Visual Studio generated files
+*.sln
+*.vcxproj*
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.user.*
+*.vcxproj.Winx64AsmPlayground.*   # if any
+*.vcxproj.*.user
+
+# MSBuild intermediate & log files
+*.obj
+*.idb
+*.ipch
+*.tlog/
+*.lastbuildstate
+
+# Compiled binaries & debug symbols
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# Rider / VSCode workspace caches
+.idea/
+.vscode/.browse.vc.db
+.vscode/*.code-workspace

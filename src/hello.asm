@@ -25,7 +25,10 @@ hello_message PROC
     mov     r9d, 0              ; MB_OK == 0
 
     call    MessageBoxA
-    call    ExitProcess         ; no @4 suffix in x64
+
+    ; epilogue
+    add     rsp, 40             ; restore stack
+    ret                         ; return to caller (main)
 hello_message ENDP
 
 END
