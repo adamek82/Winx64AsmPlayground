@@ -1,5 +1,5 @@
 # ==== CMake & MSVC build output ====
-/build/                      # your out-of-source build dir
+/build/
 CMakeFiles/
 /CMakeCache.txt
 cmake_install.cmake
@@ -12,7 +12,7 @@ Makefile
 *.vcxproj.filters
 *.vcxproj.user
 *.vcxproj.user.*
-*.vcxproj.Winx64AsmPlayground.*   # if any
+*.vcxproj.Winx64AsmPlayground.*
 *.vcxproj.*.user
 
 # MSBuild intermediate & log files
