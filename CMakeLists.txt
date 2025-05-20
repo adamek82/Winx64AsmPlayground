@@ -8,6 +8,7 @@ set(SRC
     src/main.c
     src/hello.asm
     src/dynamic.asm
+    src/arrays.asm
 )
 
 add_executable(${PROJECT_NAME} ${SRC})
